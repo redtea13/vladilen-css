@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: rgb(58, 58, 58);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+.card h2 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: slategrey;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  color: slategrey;
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.infoText {
+  margin-left: 15px;
+}
+
+.bg-yellow {
+  background: #efffbb9f;
+}
+.bg-green {
+  background: #bbffbfa8;
+}
+
+.bg-red {
+  background: #ffd1d785;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 0;
+  list-style: none;
+}
+.list li {
+  color: darkgrey;
+}
+.avatar {
+  border-radius: 20px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+.link-list li {
+  margin-bottom: 5px;
+}
+.contact h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+  background: transparent;
+}
+.row {
+  display: flex;
+  margin-bottom: 15px;
+}
+.row > .form-group {
+  width: 50%;
+}
+.row > .form-group:first-child {
+  margin-right: 15px;
+}
+.text_input {
+  background-color: rgb(255, 255, 255);
+}
+.btn {
+  padding: 5px 10px;
+  background: rgb(0, 0, 0);
+  color: white;
+  border-color: black;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn:hover {
+  border-color: rgb(255, 188, 188);
+  opacity: 0.8;
+}
